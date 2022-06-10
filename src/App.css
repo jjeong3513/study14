@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul,li,ol{
+  list-style: none;
+}
+
+.fun-logo{width: 1100px;margin: 50px auto 0;}
+
+.fun-box.on{
+  display: block;
+}
+
+.fun-box.off{
+  display: none;
+}
+
+
+
+
+
+.lang-tab{
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin: 10px;
+}
+
+
+.lang-tab li:first-child{
+  background: url(./earth.png) no-repeat;
+  background-size: contain;
+  width: 30px;
+  font-size: 0;
+}
+.lang-tab li:last-child{
+  font-weight: bold;
+}
+
+.lang-box{
+  border: 1px solid #000;
+  position: absolute;
+  right: 10px;
+  top: 40px;
+  padding: 10px 20px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+
+.lang-box.on{
+  display: block;
+}
+
+.lang-box.off{
+  display: none;
+}
